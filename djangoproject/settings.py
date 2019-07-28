@@ -25,7 +25,7 @@ SECRET_KEY = 'mv^3v0kl-q=p)_lbu#)_znfqz77lkjmiwc7lgk@6=5a7@$%(0o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['159.65.49.30']
+ALLOWED_HOSTS = ['159.65.51.133']
 
 
 # Application definition
@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'django',
         'USER': 'django',
-        'PASSWORD': '69b2745bbe53b3aece8f726c416f4894',
+        'PASSWORD': '8dd771029d7fba96a400b234918b5d46',
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -128,6 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
